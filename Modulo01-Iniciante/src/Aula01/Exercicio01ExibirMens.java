@@ -1,6 +1,6 @@
 package Aula01;
 
-public class Exercicio01 {
+public class Exercicio01ExibirMens {
 
         public void exibirMensagem(){
 

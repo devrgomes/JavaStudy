@@ -1,4 +1,5 @@
 import Aula01.*;
+import Aula02.*;
 
 import java.util.Scanner;
 
@@ -8,24 +9,39 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
-        int opc = 0;
+        int opc = 1;
 
-        while (opc != 7) {
+        while (opc != 0) {
 
-            System.out.println("----------------------------------");
-            System.out.println("| Selecione o Exercicio Desejado |");
-            System.out.println("----------------------------------");
-            System.out.println("                                  ");
-            System.out.println(" 1 - Exercício 01                 ");
-            System.out.println(" 2 - Exercício 02                 ");
-            System.out.println(" 3 - Exercício 03                 ");
-            System.out.println(" 4 - Exercício 04                 ");
-            System.out.println(" 5 - Exercício 05                 ");
-            System.out.println(" 6 - Exercício 06                 ");
-            System.out.println("                                  ");
-            System.out.println(" 7 - Sair                         ");
-            System.out.println("                                  ");
-            System.out.println("----------------------------------");
+            System.out.println("------------------------------------");
+            System.out.println("|  Selecione o Exercicio Desejado  |");
+            System.out.println("|----------------------------------|");
+            System.out.println("|                                  |");
+            System.out.println("|-------------Aula 01--------------|");
+            System.out.println("|                                  |");
+            System.out.println("|-Dígito---|---Numéro do Exercicio-|");
+            System.out.println("|                                  |");
+            System.out.println("|    1     |      Exercício 01     |");
+            System.out.println("|    2     |      Exercício 02     |");
+            System.out.println("|    3     |      Exercício 03     |");
+            System.out.println("|    4     |      Exercício 04     |");
+            System.out.println("|    5     |      Exercício 05     |");
+            System.out.println("|    6     |      Exercício 06     |");
+            System.out.println("|----------------------------------|");
+            System.out.println("|                                  |");
+            System.out.println("|-------------Aula 02--------------|");
+            System.out.println("|                                  |");
+            System.out.println("|-Dígito---|---Numéro do Exercicio-|");
+            System.out.println("|                                  |");
+            System.out.println("|    7     |      Exercício 01     |");
+            System.out.println("|    8     |      Exercício 02     |");
+            System.out.println("|    9     |      Exercício 03     |");
+            System.out.println("|   10     |      Exercício 04     |");
+            System.out.println("|   11     |      Exercício 05     |");
+            System.out.println("|   12     |      Exercício 06     |");
+            System.out.println("|----------------------------------|");
+            System.out.println("| 0 - Sair                         |");
+            System.out.println("------------------------------------");
 
             System.out.println("Digite sua escolha: ");
             opc = scan.nextInt();
@@ -34,7 +50,7 @@ public class Main {
 
                 case 1:
                     System.out.println(" ");
-                    Exercicio01 ex01 = new Exercicio01();
+                    Exercicio01ExibirMens ex01 = new Exercicio01ExibirMens();
                     ex01.exibirMensagem();
                     System.out.println(" ");
                     System.out.println("Enunciado:");
@@ -93,6 +109,56 @@ public class Main {
                     break;
 
                 case 7:
+                    System.out.println(" ");
+                    Exercicio01CF ex07 = new Exercicio01CF();
+                    ex07.CalculadoraCelsiusFahrenheit();
+                    System.out.println("Enunciado:");
+                    System.out.println("Escreva um programa que converta uma temperatura em graus Celsius para Fahrenheit. Utilize variáveis para representar os valores das temperaturas e imprima no console o valor convertido de Celsius para Fahrenheit.");
+                    System.out.println("Dica: A fórmula para converter temperaturas de graus Celsius para Fahrenheit é: (temperatura * 1.8) + 32.");
+                    System.out.println(" ");
+                    break;
+
+                case 8:
+                    System.out.println(" ");
+                    Exercicio02MediaDec ex08 = new Exercicio02MediaDec();
+                    ex08.MediaDec();
+                    System.out.println(" ");
+                    System.out.println("Enunciado:");
+                    System.out.println("Crie um programa que realize a média de duas notas decimais e exiba o resultado.");
+                    System.out.println(" ");
+                    break;
+
+                case 9:
+                    System.out.println(" ");
+                    Exercicio03CastingDouble ex09 = new Exercicio03CastingDouble();
+                    ex09.CastingDoubleInt();
+                    System.out.println(" ");
+                    System.out.println("Enunciado:");
+                    System.out.println("Declare uma variável do tipo double e uma variável do tipo int. Faça o casting da variável double para int e imprima o resultado.");
+                    System.out.println(" ");
+                    break;
+
+                case 10:
+                    System.out.println(" ");
+                    Exercicio04CharString ex10 = new Exercicio04CharString();
+                    ex10.JuntarCharString();
+                    System.out.println(" ");
+                    System.out.println("Enunciado:");
+                    System.out.println("Declare uma variável do tipo char (letra) e uma variável do tipo String (palavra). Atribua valores a essas variáveis e concatene-as em uma mensagem.");
+                    System.out.println(" ");
+                    break;
+
+                case 11:
+                    System.out.println(" ");
+                    Exercicio05CalcValorTotal ex11 = new Exercicio05CalcValorTotal();
+                    ex11.CalculoValorTotal();
+                    System.out.println(" ");
+                    System.out.println("Enunciado:");
+                    System.out.println("Declare uma variável do tipo double precoProduto e uma variável do tipo int (quantidade). Calcule o valor total multiplicando o preço do produto pela quantidade e apresente o resultado em uma mensagem.");
+                    System.out.println(" ");
+                    break;
+
+                case 0:
                     System.out.println(" ");
                     System.out.println("Saindo");
                     System.out.println(" ");
