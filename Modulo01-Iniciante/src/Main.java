@@ -13,9 +13,9 @@ public class Main {
 
         while (opc != 0) {
 
-            System.out.println("------------------------------------");
+            System.out.println("|==================================|");
             System.out.println("|  Selecione o Exercicio Desejado  |");
-            System.out.println("|----------------------------------|");
+            System.out.println("|==================================|");
             System.out.println("|                                  |");
             System.out.println("|-------------Aula 01--------------|");
             System.out.println("|                                  |");
@@ -28,10 +28,10 @@ public class Main {
             System.out.println("|    5     |      Exercício 05     |");
             System.out.println("|    6     |      Exercício 06     |");
             System.out.println("|----------------------------------|");
-            System.out.println("|                                  |");
+            System.out.println("|==================================|");
             System.out.println("|-------------Aula 02--------------|");
             System.out.println("|                                  |");
-            System.out.println("|-Dígito---|---Numéro do Exercicio-|");
+            System.out.println("|--Dígito--|--Numéro do Exercicio--|");
             System.out.println("|                                  |");
             System.out.println("|    7     |      Exercício 01     |");
             System.out.println("|    8     |      Exercício 02     |");
@@ -39,9 +39,10 @@ public class Main {
             System.out.println("|   10     |      Exercício 04     |");
             System.out.println("|   11     |      Exercício 05     |");
             System.out.println("|   12     |      Exercício 06     |");
+            System.out.println("|   13     |      Exercício 06     |");
             System.out.println("|----------------------------------|");
             System.out.println("| 0 - Sair                         |");
-            System.out.println("------------------------------------");
+            System.out.println("|==================================|");
 
             System.out.println("Digite sua escolha: ");
             opc = scan.nextInt();
@@ -155,6 +156,26 @@ public class Main {
                     System.out.println(" ");
                     System.out.println("Enunciado:");
                     System.out.println("Declare uma variável do tipo double precoProduto e uma variável do tipo int (quantidade). Calcule o valor total multiplicando o preço do produto pela quantidade e apresente o resultado em uma mensagem.");
+                    System.out.println(" ");
+                    break;
+
+                case 12:
+                    System.out.println(" ");
+                    Exercicio06RealDolar ex12 = new Exercicio06RealDolar();
+                    ex12.ConversorRealDolar();
+                    System.out.println(" ");
+                    System.out.println("Enunciado:");
+                    System.out.println("Declare uma variável do tipo double valorEmDolares. Atribua um valor em dólares a essa variável. Considere que o valor de 1 dólar é equivalente a 4.94 reais. Realize a conversão do valor em dólares para reais e imprima o resultado formatado.");
+                    System.out.println(" ");
+                    break;
+
+                case 13:
+                    System.out.println(" ");
+                    Exercicio07CalcularDesconto ex13 = new Exercicio07CalcularDesconto();
+                    ex13.calcularDesconto();
+                    System.out.println(" ");
+                    System.out.println("Enunciado:");
+                    System.out.println("Declare uma variável do tipo double precoOriginal. Atribua um valor em reais a essa variável, representando o preço original de um produto. Em seguida, declare uma variável do tipo double percentualDesconto e atribua um valor percentual de desconto ao produto (por exemplo, 10 para 10%).\nCalcule o valor do desconto em reais, aplique-o ao preço original e imprima o novo preço com desconto.");
                     System.out.println(" ");
                     break;
 
