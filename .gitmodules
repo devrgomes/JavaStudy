@@ -1,0 +1,3 @@
+[submodule "ProvaTecnica-GC"]
+	path = ProvaTecnica-GC
+	url = https://github.com/devrgomes/ProvaGC.git
