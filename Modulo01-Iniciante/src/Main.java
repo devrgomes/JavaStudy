@@ -1,5 +1,6 @@
-import Aula01.*;
-import Aula02.*;
+import Java_CriandoSuaPrimeiraAplicacao.Aula01.*;
+import Java_CriandoSuaPrimeiraAplicacao.Aula02.*;
+import Java_CriandoSuaPrimeiraAplicacao.Aula03.Exercicio01JogoAdivinhacao;
 
 import java.util.Scanner;
 
@@ -11,38 +12,100 @@ public class Main {
 
         int opc = 1;
 
+        System.out.println("""
+                \nSeja bem vindo ao código relacionado ao curso 'Java: criando a sua primeira aplicação',
+                esse curso é o primeiro do módulo que eu mesmo preparei para o meu estudo, abaixo irei detalhar
+                os cursos presentes neste módulo e pretendo manter a mesma base para os seguintes.
+                
+                Módulo 1 - Jaca Essencial (Iniciante)
+                
+                x Java: criando a sua primeira aplicação
+                - Java: aplicando Orientações ao Objeto
+                - Java: trabalhando com listas e coleções de dados
+                - Java exceções: aprenda a criar, lançar e controlar exceções
+                - Java: consumindo API, gravando e lidando com erros
+                - Maven: gerencie dependências e faça o biuld de aplicações Java
+                - Java e JDBC: trabalhando com um banco de dados
+                
+                Objetivos deste módulo:\nDesenvolver aplicações simples, entender a orientação a objetos e introduzir boas práticas.
+                
+                Projetos a serem realizados ao final dele:
+                
+                1 - Sistema de Cadastro de Clientes e Pedidos (Console ou Interface Simples)
+                
+                - Entidades: Cliente, Pedido e Produto.
+                - Funcionalidades: criar clientes, adicionar pedidos, gerar resumo de pedidos.
+                - Uso forte de orientação a objetos (encapsulamento, herança e polimorfismo).
+                
+                2 - Gerenciador de Contatos (Console)
+                
+                - CRUD completo (Create, Read, Update, Delete) de contatos.
+                - Salvar os dados em arquivos .txt ou .csv.
+                - Uso de manipulação de arquivos, exceções e listas.
+                
+                3 - Calculadora de Despesas Pessoais (Console)
+                
+                - Cadastro de categorias (alimentação, transporte, lazer, etc.).
+                - Adicionar despesas e gerar relatórios por categoria e por mês.
+                - Uso de coleções, enums e regex (para validar entrada de dados).
+                
+                ______
+                
+                Espero que goste do que fiz! Aprecie o código.
+                """);
+
         while (opc != 0) {
 
-            System.out.println("|==================================|");
-            System.out.println("|  Selecione o Exercicio Desejado  |");
-            System.out.println("|==================================|");
-            System.out.println("|                                  |");
-            System.out.println("|-------------Aula 01--------------|");
-            System.out.println("|                                  |");
-            System.out.println("|-Dígito---|---Numéro do Exercicio-|");
-            System.out.println("|                                  |");
-            System.out.println("|    1     |      Exercício 01     |");
-            System.out.println("|    2     |      Exercício 02     |");
-            System.out.println("|    3     |      Exercício 03     |");
-            System.out.println("|    4     |      Exercício 04     |");
-            System.out.println("|    5     |      Exercício 05     |");
-            System.out.println("|    6     |      Exercício 06     |");
-            System.out.println("|----------------------------------|");
-            System.out.println("|==================================|");
-            System.out.println("|-------------Aula 02--------------|");
-            System.out.println("|                                  |");
-            System.out.println("|--Dígito--|--Numéro do Exercicio--|");
-            System.out.println("|                                  |");
-            System.out.println("|    7     |      Exercício 01     |");
-            System.out.println("|    8     |      Exercício 02     |");
-            System.out.println("|    9     |      Exercício 03     |");
-            System.out.println("|   10     |      Exercício 04     |");
-            System.out.println("|   11     |      Exercício 05     |");
-            System.out.println("|   12     |      Exercício 06     |");
-            System.out.println("|   13     |      Exercício 06     |");
-            System.out.println("|----------------------------------|");
-            System.out.println("| 0 - Sair                         |");
-            System.out.println("|==================================|");
+            System.out.println("""
+                    |======================================|
+                    |Java: criando a sua primeira aplicação|
+                    |======================================|
+                    |                                      |
+                    |    Selecione o Exercicio Desejado    |
+                    |                                      |
+                    |======================================|
+                    |                                      |
+                    |---------------Aula 01----------------|
+                    |                                      |
+                    |---Dígito---|---Numéro do Exercicio---|
+                    |                                      |
+                    |     1      |       Exercício 01      |
+                    |     2      |       Exercício 02      |
+                    |     3      |       Exercício 03      |
+                    |     4      |       Exercício 04      |
+                    |     5      |       Exercício 05      |
+                    |     6      |       Exercício 06      |
+                    |                                      |
+                    |--------------------------------------|
+                    |                                      |
+                    |======================================|
+                    |                                      |
+                    |---------------Aula 02----------------|
+                    |                                      |
+                    |---Dígito---|---Numéro do Exercicio---|
+                    |                                      |
+                    |     7      |       Exercício 01      |
+                    |     8      |       Exercício 02      |
+                    |     9      |       Exercício 03      |
+                    |    10      |       Exercício 04      |
+                    |    11      |       Exercício 05      |
+                    |    12      |       Exercício 06      |
+                    |    13      |       Exercício 07      |
+                    |                                      |
+                    |--------------------------------------|
+                    |                                      |
+                    |======================================|
+                    |                                      |
+                    |---------------Aula 03----------------|
+                    |                                      |
+                    |---Dígito---|---Numéro do Exercicio---|
+                    |                                      |
+                    |    14      |       Exercício 01      |
+                    |                                      |
+                    |------====----------------------------|
+                    | 0 - Sair                             |
+                    |======================================|
+                    """);
 
             System.out.println("Digite sua escolha: ");
             opc = scan.nextInt();
@@ -178,6 +241,26 @@ public class Main {
                     System.out.println("Declare uma variável do tipo double precoOriginal. Atribua um valor em reais a essa variável, representando o preço original de um produto. Em seguida, declare uma variável do tipo double percentualDesconto e atribua um valor percentual de desconto ao produto (por exemplo, 10 para 10%).\nCalcule o valor do desconto em reais, aplique-o ao preço original e imprima o novo preço com desconto.");
                     System.out.println(" ");
                     break;
+
+                case 14:
+                    System.out.println(" ");
+                    Exercicio01JogoAdivinhacao ex14 = new Exercicio01JogoAdivinhacao();
+                    ex14.AdivinharNumero();
+                    System.out.println(" ");
+                    System.out.println("Enunciado:");
+                    System.out.println("""
+                            Crie um programa que simula um jogo de adivinhação, que deve gerar um número aleatório entre 0 e 100
+                            e pedir para que o usuário tente adivinhar o número, em até 5 tentativas.
+                            A cada tentativa, o programa deve informar se o número digitado pelo usuário é maior ou menor do que o número gerado.
+                            
+                            Dicas:
+                            
+                            - Para gerar um número aleatório em Java: new Random().nextInt(100);
+                            - Utilize o Scanner para obter os dados do usuário;
+                            - Utilize uma variável para contar as tentativas;
+                            - Utilize um loop para controlar as tentativas;
+                            - Utilize a instrução break; para interromper o loop.
+                            """);
 
                 case 0:
                     System.out.println(" ");
