@@ -7,6 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int opc = 1;
+        String yn;
 
         System.out.println("""
                 \n
@@ -51,15 +52,18 @@ public class Main {
                 ______
                 
                 Espero que goste do que fiz!
-                \n
                 """);
 
-        for (int i = 5; i >= 0; i--) {
-            System.out.println("em " + i);
-            Thread.sleep(1000); // pausa por 1 segundo
-        }
-        System.out.println("\nAprecie o código.\n");
+        System.out.print("Podemos prosseguir (y/n) ? ");
+        yn = sc.nextLine();
 
+        if (yn.equals("y")){
+            System.out.println(" ");
+            for (int i = 5; i >= 0; i--) {
+                System.out.println("em " + i);
+                Thread.sleep(1000); // pausa por 1 segundo
+            }
+            System.out.println("\nAprecie o código.\n");
 
         while (opc != 0) {
 
@@ -107,6 +111,8 @@ public class Main {
                     System.out.println(" ");
             }
         }
-
+        } else {
+            System.out.println("TE FODE ENTÃO!");
+        }
     }
 }
