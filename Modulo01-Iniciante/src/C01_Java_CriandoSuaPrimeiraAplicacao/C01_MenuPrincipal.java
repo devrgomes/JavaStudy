@@ -3,6 +3,7 @@ package C01_Java_CriandoSuaPrimeiraAplicacao;
 import C01_Java_CriandoSuaPrimeiraAplicacao.Aula01.C01_MenuExerciciosAula01;
 import C01_Java_CriandoSuaPrimeiraAplicacao.Aula02.C01_MenuExerciciosAula02;
 import C01_Java_CriandoSuaPrimeiraAplicacao.Aula03.C01_MenuExerciciosAula03;
+import C01_Java_CriandoSuaPrimeiraAplicacao.C01_ProjetoFinal.ProjetoFinal_SistemaBancarioSimples;
 import Util.MensagemDespedida;
 
 import java.util.Scanner;
@@ -56,12 +57,12 @@ public class C01_MenuPrincipal {
                     break;
 
                 case 4:
-//                    C01_ProjetoFinal pjfC01 = new C01_ProjetoFinal();
-//                    pjfC01.ProjetoFinal();
+                    ProjetoFinal_SistemaBancarioSimples pjfC01 = new ProjetoFinal_SistemaBancarioSimples();
+                    pjfC01.ProjetoFinalSysBanc();
                     break;
 
                 case 9:
-                    System.out.println("\nVoltando para o Menu de Cursos...\n");
+                    System.out.println("\nVoltando para o Menu de Cursos...");
                     for (int i = 3; i >= 0; i--) {
                         System.out.println("em " + i);
                         Thread.sleep(1000);
@@ -69,7 +70,7 @@ public class C01_MenuPrincipal {
                     return;
 
                 case 0:
-                    System.out.println("\nFinalizando o programa...\n");
+                    System.out.println("\nFinalizando o programa...");
                     for (int i = 3; i >= 0; i--) {
                         System.out.println("em " + i);
                         Thread.sleep(1000);
@@ -79,7 +80,7 @@ public class C01_MenuPrincipal {
                     System.exit(0);
 
                 default:
-                    System.out.println("\nDigite um número que esteja entre as opções!\n");
+                    System.out.println("\nDigite um número que esteja entre as opções!");
             }
         }
     }

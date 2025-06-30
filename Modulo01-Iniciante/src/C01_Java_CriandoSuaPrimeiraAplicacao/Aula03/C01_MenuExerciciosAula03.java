@@ -15,6 +15,7 @@ public class C01_MenuExerciciosAula03 {
         while (opc != 0) {
 
             System.out.println("""
+                    \n
                     |================Aula 03================|
                     |                                       |
                     |---Digito---|--------Exercício---------|
@@ -55,7 +56,6 @@ public class C01_MenuExerciciosAula03 {
                             - Utilize uma variável para contar as tentativas;
                             - Utilize um loop para controlar as tentativas;
                             - Utilize a instrução break; para interromper o loop.
-                            \n
                             """);
                     Exercicio01JogoAdivinhacao ex01 = new Exercicio01JogoAdivinhacao();
                     ex01.AdivinharNumero();
@@ -69,7 +69,6 @@ public class C01_MenuExerciciosAula03 {
                             
                             Crie um programa que solicite ao usuário digitar um número.
                             Se o número for positivo, exiba "Número positivo", caso contrário, exiba "Número negativo".
-                            \n
                             """);
                     Exercicio02PositivoNegativo ex02 = new Exercicio02PositivoNegativo();
                     ex02.NumeroPositivoNegativo();
@@ -83,7 +82,6 @@ public class C01_MenuExerciciosAula03 {
                             
                             Peça ao usuário para inserir dois números inteiros. Compare os números e imprima uma
                             mensagem indicando se são iguais, diferentes, o primeiro é maior ou o segundo é maior.
-                            \n
                             """);
                     Exercicio03ComparandoNumeros ex03 = new Exercicio03ComparandoNumeros();
                     ex03.ComparandoNumeros();
@@ -98,7 +96,6 @@ public class C01_MenuExerciciosAula03 {
                             Crie um menu que oferece duas opções ao usuário:
                             "1. Calcular área do quadrado" e "2. Calcular área do círculo".
                             Solicite a escolha do usuário e realize o cálculo da área com base na opção selecionada.
-                            \n
                             """);
                     Exercicio04CalculadoraArea ex04 = new Exercicio04CalculadoraArea();
                     ex04.CalculadoraArea();
@@ -110,7 +107,6 @@ public class C01_MenuExerciciosAula03 {
                             Enunciado:
                             
                             Crie um programa que solicite ao usuário um número e exiba a tabuada desse número de 1 a 10.
-                            \n
                             """);
                     Exercicio05Tabuada ex05 = new Exercicio05Tabuada();
                     ex05.Tabuada();
@@ -123,7 +119,6 @@ public class C01_MenuExerciciosAula03 {
                             
                             Crie um programa que solicite ao usuário a entrada de um número inteiro.
                             Verifique se o número é par ou ímpar e exiba uma mensagem correspondente.
-                            \n
                             """);
                     Exercicio06ParImpar ex06 = new Exercicio06ParImpar();
                     ex06.ParOrImpar();
@@ -135,14 +130,13 @@ public class C01_MenuExerciciosAula03 {
                             Enunciado:
                             
                             Crie um programa que solicite ao usuário um número e calcule o fatorial desse número.
-                            \n
                             """);
                     Exercicio07CalculoFatorial ex07 = new Exercicio07CalculoFatorial();
                     ex07.CalculoFatorial();
                     break;
 
                 case 9:
-                    System.out.println("Voltando para o Menu de Aulas...\n");
+                    System.out.println("\nVoltando para o Menu de Aulas...");
                     for (int i = 3; i >= 0; i--) {
                         System.out.println("em " + i);
                         Thread.sleep(1000);
@@ -152,7 +146,7 @@ public class C01_MenuExerciciosAula03 {
                     break;
 
                 case 0:
-                    System.out.println("Finalizando o programa...");
+                    System.out.println("\nFinalizando o programa...");
                     for (int i = 3; i >= 0; i--) {
                         System.out.println("em " + i);
                         Thread.sleep(1000);
@@ -162,7 +156,7 @@ public class C01_MenuExerciciosAula03 {
                     System.exit(0);
 
                 default:
-                    System.out.println("Digite um número que esteja entre as opções!");
+                    System.out.println("\nDigite um número que esteja entre as opções!");
             }
         }
     }

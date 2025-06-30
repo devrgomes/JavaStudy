@@ -15,6 +15,7 @@ public class C01_MenuExerciciosAula01 {
         while (opc != 0) {
 
             System.out.println("""
+                    \n
                     |================Aula 01================|
                     |                                       |
                     |---Digito---|--------Exercício---------|
@@ -46,7 +47,6 @@ public class C01_MenuExerciciosAula01 {
                             executar deverá imprimir no console o texto
                             
                             - “Concluí a aula 01 e agora estou mergulhando em Java!” -
-                            \n
                             """);
                     Exercicio01ExibirMens ex01 = new Exercicio01ExibirMens();
                     ex01.exibirMensagem();
@@ -62,7 +62,6 @@ public class C01_MenuExerciciosAula01 {
                             com o método main, que ao executar deverá imprimir um cumprimento personalizado no console.
                             
                             Por exemplo: 'Olá, [Seu Nome]!'.
-                            \n
                             """);
                     Exercicio02Perfil ex02 = new Exercicio02Perfil();
                     ex02.exibirNome();
@@ -77,7 +76,6 @@ public class C01_MenuExerciciosAula01 {
                             Modifique o programa para imprimir uma segunda mensagem de cumprimento personalizada.
                             
                             Por exemplo: 'Tudo bem?'
-                            \n
                             """);
                     Exercicio03Cumprimento ex03 = new Exercicio03Cumprimento();
                     ex03.exibirCumprimento();
@@ -90,7 +88,6 @@ public class C01_MenuExerciciosAula01 {
                             Enunciado:
                             
                             Crie uma classe chamada Estudos para imprimir anotações de estudos no console.
-                            \n
                             """);
                     Exercicio04Anotacoes ex04 = new Exercicio04Anotacoes();
                     ex04.exibirAnotacoes();
@@ -105,7 +102,6 @@ public class C01_MenuExerciciosAula01 {
                             Crie uma classe Soma em Java para imprimir no console o resultado da operação 10 + 5.
                             Certifique-se de que o resultado seja exibido sem o uso de aspas,
                             apresentando o valor '15' ao invés da expressão '10+5'.
-                            \n
                             """);
                     Exercicio05Soma ex05 = new Exercicio05Soma();
                     ex05.Soma();
@@ -118,7 +114,6 @@ public class C01_MenuExerciciosAula01 {
                             Enunciado:
                             
                             Crie uma classe Subtracao para imprimir o resultado de 10 - 5 no console.
-                            \n
                             """);
                     Exercicio06Subtracao ex06 = new Exercicio06Subtracao();
                     ex06.Subtracao();
@@ -126,7 +121,7 @@ public class C01_MenuExerciciosAula01 {
                     break;
 
                 case 9:
-                    System.out.println("Voltando para o Menu de Aulas...\n");
+                    System.out.println("\nVoltando para o Menu de Aulas...");
                     for (int i = 3; i >= 0; i--) {
                         System.out.println("em " + i);
                         Thread.sleep(1000);
@@ -136,7 +131,7 @@ public class C01_MenuExerciciosAula01 {
                     break;
 
                 case 0:
-                    System.out.println("Finalizando o programa...");
+                    System.out.println("\nFinalizando o programa...");
                     for (int i = 3; i >= 0; i--) {
                         System.out.println("em " + i);
                         Thread.sleep(1000);
@@ -147,7 +142,7 @@ public class C01_MenuExerciciosAula01 {
                     break;
 
                 default:
-                    System.out.println("Digite um número que esteja entre as opções!");
+                    System.out.println("\nDigite um número que esteja entre as opções!");
             }
 
         }

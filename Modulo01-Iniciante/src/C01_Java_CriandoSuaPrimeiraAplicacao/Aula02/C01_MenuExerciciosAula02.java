@@ -15,6 +15,7 @@ public class C01_MenuExerciciosAula02 {
         while (opc != 0) {
 
             System.out.println("""
+                    \n
                     |================Aula 02================|
                     |                                       |
                     |---Digito---|--------Exercício---------|
@@ -50,7 +51,6 @@ public class C01_MenuExerciciosAula02 {
                             
                             - A fórmula para converter temperaturas de graus Celsius para Fahrenheit é:
                               (temperatura * 1.8) + 32
-                            \n
                             """);
                     Exercicio01CF ex01 = new Exercicio01CF();
                     ex01.CalculadoraCelsiusFahrenheit();
@@ -63,7 +63,6 @@ public class C01_MenuExerciciosAula02 {
                             Enunciado:
                             
                             Crie um programa que realize a média de duas notas decimais e exiba o resultado.
-                            \n
                             """);
                     Exercicio02MediaDec ex02 = new Exercicio02MediaDec();
                     ex02.MediaDec();
@@ -77,7 +76,6 @@ public class C01_MenuExerciciosAula02 {
                             
                             Declare uma variável do tipo double e uma variável do tipo int.
                             Faça o casting da variável double para int e imprima o resultado.
-                            \n
                             """);
                     Exercicio03CastingDouble ex03 = new Exercicio03CastingDouble();
                     ex03.CastingDoubleInt();
@@ -91,7 +89,6 @@ public class C01_MenuExerciciosAula02 {
                             
                             Declare uma variável do tipo char (letra) e uma variável do tipo String (palavra).
                             Atribua valores a essas variáveis e concatene-as em uma mensagem.
-                            \n
                             """);
                     Exercicio04CharString ex04 = new Exercicio04CharString();
                     ex04.JuntarCharString();
@@ -106,7 +103,6 @@ public class C01_MenuExerciciosAula02 {
                             Declare uma variável do tipo double precoProduto e uma variável do tipo int (quantidade).
                             Calcule o valor total multiplicando o preço do produto pela quantidade
                             e apresente o resultado em uma mensagem.
-                            \n
                             """);
                     Exercicio05CalcValorTotal ex05 = new Exercicio05CalcValorTotal();
                     ex05.CalculoValorTotal();
@@ -122,7 +118,6 @@ public class C01_MenuExerciciosAula02 {
                             Atribua um valor em dólares a essa variável. Considere que o valor de 1 dólar é equivalente
                             a 4.94 reais.
                             Realize a conversão do valor em dólares para reais e imprima o resultado formatado.
-                            \n
                             """);
                     Exercicio06RealDolar ex06 = new Exercicio06RealDolar();
                     ex06.ConversorRealDolar();
@@ -140,7 +135,6 @@ public class C01_MenuExerciciosAula02 {
                             e atribua um valor percentual de desconto ao produto (por exemplo, 10 para 10%).
                             Calcule o valor do desconto em reais, aplique-o ao preço original
                             e imprima o novo preço com desconto.
-                            \n
                             """);
                     Exercicio07CalcularDesconto ex13 = new Exercicio07CalcularDesconto();
                     ex13.calcularDesconto();
@@ -148,7 +142,7 @@ public class C01_MenuExerciciosAula02 {
                     break;
 
                 case 9:
-                    System.out.println("Voltando para o Menu de Aulas...\n");
+                    System.out.println("\nVoltando para o Menu de Aulas...");
                     for (int i = 3; i >= 0; i--) {
                         System.out.println("em " + i);
                         Thread.sleep(1000);
@@ -158,7 +152,7 @@ public class C01_MenuExerciciosAula02 {
                     break;
 
                 case 0:
-                    System.out.println("Finalizando o programa...");
+                    System.out.println("\nFinalizando o programa...");
                     for (int i = 3; i >= 0; i--) {
                         System.out.println("em " + i);
                         Thread.sleep(1000);
@@ -168,7 +162,7 @@ public class C01_MenuExerciciosAula02 {
                     System.exit(0);
 
                 default:
-                    System.out.println("Digite um número que esteja entre as opções!");
+                    System.out.println("\nDigite um número que esteja entre as opções!");
             }
         }
     }

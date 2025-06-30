@@ -15,7 +15,6 @@ public class MensagemDespedida {
                 Email: devrgomes@gmail.com
                 
                           Até uma próxima.
-                \n
                 """);
     }
 }

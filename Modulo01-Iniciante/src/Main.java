@@ -66,11 +66,12 @@ public class Main {
                 System.out.println("em " + i);
                 Thread.sleep(1000); // pausa por 1 segundo
             }
-            System.out.println("\nAprecie o código.\n");
+            System.out.println("\nAprecie o código.");
 
             while (opc != 0) {
 
                 System.out.println("""
+                        \n
                         |===============================================================================|
                         |                   Módulo 01 - Java Essencial (Iniciante)                      |
                         |===============================================================================|
@@ -102,7 +103,7 @@ public class Main {
                 switch (opc) {
 
                     case 1:
-                        System.out.println("\nRedirecionando a sua escolha\n");
+                        System.out.println("\nRedirecionando a sua escolha");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
@@ -112,7 +113,7 @@ public class Main {
                         break;
 
                     case 2:
-                        System.out.println("\nRedirecionando a sua escolha\n");
+                        System.out.println("\nRedirecionando a sua escolha");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
@@ -122,7 +123,7 @@ public class Main {
                         break;
 
                     case 3:
-                        System.out.println("\nRedirecionando a sua escolha\n");
+                        System.out.println("\nRedirecionando a sua escolha");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
@@ -132,7 +133,7 @@ public class Main {
                         break;
 
                     case 4:
-                        System.out.println("\nRedirecionando a sua escolha\n");
+                        System.out.println("\nRedirecionando a sua escolha");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
@@ -142,7 +143,7 @@ public class Main {
                         break;
 
                     case 5:
-                        System.out.println("\nRedirecionando a sua escolha\n");
+                        System.out.println("\nRedirecionando a sua escolha");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
@@ -152,7 +153,7 @@ public class Main {
                         break;
 
                     case 6:
-                        System.out.println("\nRedirecionando a sua escolha\n");
+                        System.out.println("\nRedirecionando a sua escolha");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
@@ -162,7 +163,7 @@ public class Main {
                         break;
 
                     case 7:
-                        System.out.println("\nRedirecionando a sua escolha\n");
+                        System.out.println("\nRedirecionando a sua escolha");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
@@ -172,7 +173,7 @@ public class Main {
                         break;
 
                     case 8:
-                        System.out.println("\nRedirecionando a sua escolha\n");
+                        System.out.println("\nRedirecionando a sua escolha");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
@@ -182,7 +183,7 @@ public class Main {
                         break;
 
                     case 9:
-                        System.out.println("\nRedirecionando a sua escolha\n");
+                        System.out.println("\nRedirecionando a sua escolha");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
@@ -192,7 +193,7 @@ public class Main {
                         break;
 
                     case 10:
-                        System.out.println("\nRedirecionando a sua escolha\n");
+                        System.out.println("\nRedirecionando a sua escolha");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
