@@ -10,9 +10,9 @@ public class Exercicio02Perfil {
 
     public void exibirNome (){
 
-        System.out.println("Digite seu nome: ");
+        System.out.print("Digite seu nome: ");
         nome = scan.nextLine();
 
-        System.out.println("Seu nome é "+ nome);
+        System.out.println("Seu nome é " + nome);
     }
 }

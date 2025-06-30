@@ -13,7 +13,7 @@ public class Exercicio01JogoAdivinhacao {
 
         System.out.println("""
                 \nBem-Vindo ao jogo de adivinha o numero secreto!
-                Tente adivinhar o número entre 0 e 100! 
+                Tente adivinhar o número entre 0 e 100!
                 Você tem 5 tentativas.
                 """);
 

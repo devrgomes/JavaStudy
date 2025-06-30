@@ -8,21 +8,19 @@ public class Exercicio01CF {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Digite o valor em Celsius para converter em Fahrenheit: ");
+        System.out.print("Digite o valor em Celsius para converter em Fahrenheit: ");
         double Celsius = scan.nextDouble();
 
         double Fahrenheit = (Celsius * 1.8) + 32;
 
-        System.out.printf(
-                """
-                
-                Conversão de Temperatura:
-                --------------------------
-                Celsius:     %.2f°C
-                Fahrenheit:  %.2f°F
-                Fahrenheit (inteiro): %d°F
-                --------------------------%n
-                """,
+        System.out.printf("""
+                        Conversão de Temperatura:
+                        --------------------------
+                        Celsius:     %.2f°C
+                        Fahrenheit:  %.2f°F
+                        Fahrenheit (inteiro): %d°F
+                        --------------------------
+                        """,
                 Celsius,
                 Fahrenheit,
                 (int) Fahrenheit

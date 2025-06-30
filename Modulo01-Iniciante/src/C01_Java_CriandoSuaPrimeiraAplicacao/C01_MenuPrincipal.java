@@ -16,6 +16,7 @@ public class C01_MenuPrincipal {
         while (opc != 0) {
 
             System.out.println("""
+                    \n
                     |========================================|
                     | Java: criando a sua primeira aplicação |
                     |========================================|
@@ -59,7 +60,11 @@ public class C01_MenuPrincipal {
                     break;
 
                 case 9:
-                    System.out.println("Voltando para o Menu de Cursos...");
+                    System.out.println("Voltando para o Menu de Aulas...\n");
+                    for (int i = 3; i >= 0; i--) {
+                        System.out.println("em " + i);
+                        Thread.sleep(1000); // pausa por 1 segundo
+                    }
                     break;
 
                 case 0:

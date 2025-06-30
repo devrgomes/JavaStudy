@@ -8,7 +8,7 @@ public class Exercicio06RealDolar {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Digite o valor de dolares que você deseja converter em reais: ");
+        System.out.print("Digite o valor de dolares que você deseja converter em reais: ");
         double valoremDolar = scan.nextDouble();
         System.out.printf("O valor que você possui poder ser convertido em %.2f dolares", valoremDolar * 4.94);
     }

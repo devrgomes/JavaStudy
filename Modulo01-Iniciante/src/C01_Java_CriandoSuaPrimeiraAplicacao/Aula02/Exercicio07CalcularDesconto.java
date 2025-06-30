@@ -10,7 +10,7 @@ public class Exercicio07CalcularDesconto {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Digite o valor do produto sem desconto aplicado: ");
+        System.out.print("Digite o valor do produto sem desconto aplicado: ");
         double precoOriginal = scan.nextDouble();
 
         System.out.println("""

@@ -10,9 +10,9 @@ public class Exercicio03Cumprimento {
 
     public void exibirCumprimento () {
 
-        System.out.println("Digite seu nome: ");
+        System.out.print("Digite seu nome: ");
         nome = scan.nextLine();
 
-        System.out.println("Olá "+ nome +"! Tudo bem?");
+        System.out.println("Olá " + nome + "! Tudo bem?");
     }
 }
