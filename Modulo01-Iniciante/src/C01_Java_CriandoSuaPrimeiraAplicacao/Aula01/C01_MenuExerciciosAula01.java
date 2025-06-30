@@ -1,6 +1,7 @@
 package C01_Java_CriandoSuaPrimeiraAplicacao.Aula01;
 
 import C01_Java_CriandoSuaPrimeiraAplicacao.C01_MenuPrincipal;
+import Util.MensagemDespedida;
 
 import java.util.Scanner;
 
@@ -31,7 +32,7 @@ public class C01_MenuExerciciosAula01 {
                     |=======================================|
                     """);
 
-            System.out.print("Escolha qual exercicio você deseja visualizar a resposta e o enunciado: ");
+            System.out.print("Digite sua escolha: ");
             opc = Integer.parseInt(sc.nextLine());
 
             switch (opc) {
@@ -128,7 +129,7 @@ public class C01_MenuExerciciosAula01 {
                     System.out.println("Voltando para o Menu de Aulas...\n");
                     for (int i = 3; i >= 0; i--) {
                         System.out.println("em " + i);
-                        Thread.sleep(1000); // pausa por 1 segundo
+                        Thread.sleep(1000);
                     }
                     C01_MenuPrincipal menuPrincipalAulas = new C01_MenuPrincipal();
                     menuPrincipalAulas.mostrarMenuC01();
@@ -136,6 +137,13 @@ public class C01_MenuExerciciosAula01 {
 
                 case 0:
                     System.out.println("Finalizando o programa...");
+                    for (int i = 3; i >= 0; i--) {
+                        System.out.println("em " + i);
+                        Thread.sleep(1000);
+                    }
+                    MensagemDespedida.Despedida();
+                    Thread.sleep(5000);
+                    System.exit(0);
                     break;
 
                 default:

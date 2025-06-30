@@ -3,6 +3,7 @@ package C01_Java_CriandoSuaPrimeiraAplicacao;
 import C01_Java_CriandoSuaPrimeiraAplicacao.Aula01.C01_MenuExerciciosAula01;
 import C01_Java_CriandoSuaPrimeiraAplicacao.Aula02.C01_MenuExerciciosAula02;
 import C01_Java_CriandoSuaPrimeiraAplicacao.Aula03.C01_MenuExerciciosAula03;
+import Util.MensagemDespedida;
 
 import java.util.Scanner;
 
@@ -60,19 +61,25 @@ public class C01_MenuPrincipal {
                     break;
 
                 case 9:
-                    System.out.println("Voltando para o Menu de Aulas...\n");
+                    System.out.println("\nVoltando para o Menu de Cursos...\n");
                     for (int i = 3; i >= 0; i--) {
                         System.out.println("em " + i);
-                        Thread.sleep(1000); // pausa por 1 segundo
+                        Thread.sleep(1000);
                     }
-                    break;
+                    return;
 
                 case 0:
-                    System.out.println("Finalizando o programa...");
-                    break;
+                    System.out.println("\nFinalizando o programa...\n");
+                    for (int i = 3; i >= 0; i--) {
+                        System.out.println("em " + i);
+                        Thread.sleep(1000);
+                    }
+                    MensagemDespedida.Despedida();
+                    Thread.sleep(5000);
+                    System.exit(0);
 
                 default:
-                    System.out.println("Digite um número que esteja entre as opções!");
+                    System.out.println("\nDigite um número que esteja entre as opções!\n");
             }
         }
     }

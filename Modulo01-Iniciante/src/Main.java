@@ -1,4 +1,5 @@
 import C01_Java_CriandoSuaPrimeiraAplicacao.C01_MenuPrincipal;
+import Util.MensagemDespedida;
 
 import java.util.Scanner;
 
@@ -104,7 +105,7 @@ public class Main {
                         System.out.println("\nRedirecionando a sua escolha\n");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
-                            Thread.sleep(1000); // pausa por 1 segundo
+                            Thread.sleep(1000);
                         }
                         C01_MenuPrincipal C01menuPrincipal = new C01_MenuPrincipal();
                         C01menuPrincipal.mostrarMenuC01();
@@ -114,7 +115,7 @@ public class Main {
                         System.out.println("\nRedirecionando a sua escolha\n");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
-                            Thread.sleep(1000); // pausa por 1 segundo
+                            Thread.sleep(1000);
                         }
 //                        C02_MenuPrincipal C02menuPrincipal = new C02_MenuPrincipal();
 //                        C02menuPrincipal.mostrarMenuC02();
@@ -124,7 +125,7 @@ public class Main {
                         System.out.println("\nRedirecionando a sua escolha\n");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
-                            Thread.sleep(1000); // pausa por 1 segundo
+                            Thread.sleep(1000);
                         }
 //                        C03_MenuPrincipal C03menuPrincipal = new C03_MenuPrincipal();
 //                        C03menuPrincipal.mostrarMenuC03();
@@ -134,7 +135,7 @@ public class Main {
                         System.out.println("\nRedirecionando a sua escolha\n");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
-                            Thread.sleep(1000); // pausa por 1 segundo
+                            Thread.sleep(1000);
                         }
 //                        C04_MenuPrincipal C04menuPrincipal = new C04_MenuPrincipal();
 //                        C04menuPrincipal.mostrarMenuC04();
@@ -144,7 +145,7 @@ public class Main {
                         System.out.println("\nRedirecionando a sua escolha\n");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
-                            Thread.sleep(1000); // pausa por 1 segundo
+                            Thread.sleep(1000);
                         }
 //                        C05_MenuPrincipal C05menuPrincipal = new C05_MenuPrincipal();
 //                        C05menuPrincipal.mostrarMenuC05();
@@ -154,7 +155,7 @@ public class Main {
                         System.out.println("\nRedirecionando a sua escolha\n");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
-                            Thread.sleep(1000); // pausa por 1 segundo
+                            Thread.sleep(1000);
                         }
 //                        C06_MenuPrincipal C06menuPrincipal = new C06_MenuPrincipal();
 //                        C06menuPrincipal.mostrarMenuC06();
@@ -164,7 +165,7 @@ public class Main {
                         System.out.println("\nRedirecionando a sua escolha\n");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
-                            Thread.sleep(1000); // pausa por 1 segundo
+                            Thread.sleep(1000);
                         }
 //                        C07_MenuPrincipal C07menuPrincipal = new C07_MenuPrincipal();
 //                        C07menuPrincipal.mostrarMenuC07();
@@ -174,7 +175,7 @@ public class Main {
                         System.out.println("\nRedirecionando a sua escolha\n");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
-                            Thread.sleep(1000); // pausa por 1 segundo
+                            Thread.sleep(1000);
                         }
 //                        M01_Projeto01_SistemaCadastros M01P01 = new M01_Projeto01_SistemaCadastros();
 //                        M01P01.M01P01SistemaCadastro();
@@ -184,7 +185,7 @@ public class Main {
                         System.out.println("\nRedirecionando a sua escolha\n");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
-                            Thread.sleep(1000); // pausa por 1 segundo
+                            Thread.sleep(1000);
                         }
 //                        M01_Projeto02_GerenciamentoContatos M01P02 = new M01_Projeto02_GerenciamentoContatos();
 //                        M01P02.M01P02GerenciamentoContatos();
@@ -194,7 +195,7 @@ public class Main {
                         System.out.println("\nRedirecionando a sua escolha\n");
                         for (int i = 3; i >= 0; i--) {
                             System.out.println("em " + i);
-                            Thread.sleep(1000); // pausa por 1 segundo
+                            Thread.sleep(1000);
                         }
 //                        M01_Projeto03_CalculadoraDespesasPessoais M01P03 = new M01_Projeto03_CalculadoraDespesasPessoais();
 //                        M01P03.M01P03CalculadoraDespesasPessoais();
@@ -202,6 +203,13 @@ public class Main {
 
                     case 0:
                         System.out.println("\nFinalizando o programa...");
+                        for (int i = 3; i >= 0; i--) {
+                            System.out.println("em " + i);
+                            Thread.sleep(1000);
+                        }
+                        MensagemDespedida.Despedida();
+                        Thread.sleep(5000);
+                        System.exit(0);
                         break;
 
                     default:
@@ -209,7 +217,9 @@ public class Main {
                 }
             }
         } else {
-            System.out.println("TE FODE ENTÃO!");
+            MensagemDespedida.Despedida();
+            Thread.sleep(5000);
+            System.exit(0);
         }
     }
 }

@@ -1,6 +1,7 @@
 package C01_Java_CriandoSuaPrimeiraAplicacao.Aula02;
 
 import C01_Java_CriandoSuaPrimeiraAplicacao.C01_MenuPrincipal;
+import Util.MensagemDespedida;
 
 import java.util.Scanner;
 
@@ -32,7 +33,7 @@ public class C01_MenuExerciciosAula02 {
                     |=======================================|
                     """);
 
-            System.out.print("Escolha qual exercicio você deseja visualizar a resposta e o enunciado: ");
+            System.out.print("Digite sua escolha: ");
             opc = Integer.parseInt(sc.nextLine());
 
             switch (opc) {
@@ -51,8 +52,8 @@ public class C01_MenuExerciciosAula02 {
                               (temperatura * 1.8) + 32
                             \n
                             """);
-                    Exercicio01CF ex07 = new Exercicio01CF();
-                    ex07.CalculadoraCelsiusFahrenheit();
+                    Exercicio01CF ex01 = new Exercicio01CF();
+                    ex01.CalculadoraCelsiusFahrenheit();
                     System.out.println(" ");
                     break;
 
@@ -64,8 +65,8 @@ public class C01_MenuExerciciosAula02 {
                             Crie um programa que realize a média de duas notas decimais e exiba o resultado.
                             \n
                             """);
-                    Exercicio02MediaDec ex08 = new Exercicio02MediaDec();
-                    ex08.MediaDec();
+                    Exercicio02MediaDec ex02 = new Exercicio02MediaDec();
+                    ex02.MediaDec();
                     System.out.println(" ");
                     break;
 
@@ -78,8 +79,8 @@ public class C01_MenuExerciciosAula02 {
                             Faça o casting da variável double para int e imprima o resultado.
                             \n
                             """);
-                    Exercicio03CastingDouble ex09 = new Exercicio03CastingDouble();
-                    ex09.CastingDoubleInt();
+                    Exercicio03CastingDouble ex03 = new Exercicio03CastingDouble();
+                    ex03.CastingDoubleInt();
                     System.out.println(" ");
                     break;
 
@@ -92,8 +93,8 @@ public class C01_MenuExerciciosAula02 {
                             Atribua valores a essas variáveis e concatene-as em uma mensagem.
                             \n
                             """);
-                    Exercicio04CharString ex10 = new Exercicio04CharString();
-                    ex10.JuntarCharString();
+                    Exercicio04CharString ex04 = new Exercicio04CharString();
+                    ex04.JuntarCharString();
                     System.out.println(" ");
                     break;
 
@@ -107,8 +108,8 @@ public class C01_MenuExerciciosAula02 {
                             e apresente o resultado em uma mensagem.
                             \n
                             """);
-                    Exercicio05CalcValorTotal ex11 = new Exercicio05CalcValorTotal();
-                    ex11.CalculoValorTotal();
+                    Exercicio05CalcValorTotal ex05 = new Exercicio05CalcValorTotal();
+                    ex05.CalculoValorTotal();
                     System.out.println(" ");
                     break;
 
@@ -123,8 +124,8 @@ public class C01_MenuExerciciosAula02 {
                             Realize a conversão do valor em dólares para reais e imprima o resultado formatado.
                             \n
                             """);
-                    Exercicio06RealDolar ex12 = new Exercicio06RealDolar();
-                    ex12.ConversorRealDolar();
+                    Exercicio06RealDolar ex06 = new Exercicio06RealDolar();
+                    ex06.ConversorRealDolar();
                     System.out.println(" ");
                     break;
 
@@ -150,7 +151,7 @@ public class C01_MenuExerciciosAula02 {
                     System.out.println("Voltando para o Menu de Aulas...\n");
                     for (int i = 3; i >= 0; i--) {
                         System.out.println("em " + i);
-                        Thread.sleep(1000); // pausa por 1 segundo
+                        Thread.sleep(1000);
                     }
                     C01_MenuPrincipal menuPrincipalAulas = new C01_MenuPrincipal();
                     menuPrincipalAulas.mostrarMenuC01();
@@ -158,7 +159,13 @@ public class C01_MenuExerciciosAula02 {
 
                 case 0:
                     System.out.println("Finalizando o programa...");
-                    break;
+                    for (int i = 3; i >= 0; i--) {
+                        System.out.println("em " + i);
+                        Thread.sleep(1000);
+                    }
+                    MensagemDespedida.Despedida();
+                    Thread.sleep(5000);
+                    System.exit(0);
 
                 default:
                     System.out.println("Digite um número que esteja entre as opções!");
