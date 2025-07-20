@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaStudy.iml" filepath="$PROJECT_DIR$/.idea/JavaStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo00-Fundamentos/Modulo00-Fundamentos.iml" filepath="$PROJECT_DIR$/Modulo00-Fundamentos/Modulo00-Fundamentos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo01-Iniciante/Modulo01-Iniciante.iml" filepath="$PROJECT_DIR$/Modulo01-Iniciante/Modulo01-Iniciante.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo02-Intermediario/Modulo02-Intermediario.iml" filepath="$PROJECT_DIR$/Modulo02-Intermediario/Modulo02-Intermediario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo03-Avancado/Modulo03-Avancado.iml" filepath="$PROJECT_DIR$/Modulo03-Avancado/Modulo03-Avancado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo04-Spring/Modulo04-Spring.iml" filepath="$PROJECT_DIR$/Modulo04-Spring/Modulo04-Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulo05-Extras/Modulo05-Extras.iml" filepath="$PROJECT_DIR$/Modulo05-Extras/Modulo05-Extras.iml" />
+    </modules>
+  </component>
+</project>
