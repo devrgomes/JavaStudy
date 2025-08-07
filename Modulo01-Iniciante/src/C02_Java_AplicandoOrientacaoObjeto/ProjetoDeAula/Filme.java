@@ -1,48 +1,22 @@
 package C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula;
 
-public class Filme {
-    private String nome;
-    private int anoDeLancamento;
-    private boolean incluidoNoPlano;
-    private double somaDasAvaliacoes;
-    private int totalDeAvaliacao;
-    private int duracaoEmMinutos;
+public class Filme extends TItulo{
 
-    public int getTotalDeAvaliacao() {
-        return totalDeAvaliacao;
+    private String diretor;
+
+    public String getDiretor() {
+        return diretor;
     }
 
-    public double getSomaDasAvaliacoes() {
-        return somaDasAvaliacoes;
+    public void setDiretor(String diretor) {
+        this.diretor = diretor;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+    TItulo incluiDiretor =  new TItulo();
 
-    public void setAnoDeLancamento(int anoDeLancamento) {
-        this.anoDeLancamento = anoDeLancamento;
-    }
-
-    public void setIncluidoNoPlano(boolean incluidoNoPlano) {
-        this.incluidoNoPlano = incluidoNoPlano;
-    }
-
-    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
-        this.duracaoEmMinutos = duracaoEmMinutos;
-    }
-
-    public void exibeFichaTecnica(){
-        System.out.println("Nome do Filme: " + nome);
-        System.out.println("Ano de Lançamento: " + anoDeLancamento);
-    }
-
-    public void avalia(double nota){
-        somaDasAvaliacoes += nota;
-        totalDeAvaliacao++;
-    }
-
-    public double pegaMedia(){
-        return somaDasAvaliacoes / totalDeAvaliacao;
+    @Override
+    public void exibeFichaTecnica() {
+        super.exibeFichaTecnica();
+        System.out.println("Diretor: " + diretor);
     }
 }

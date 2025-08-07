@@ -5,7 +5,6 @@ import C02_Java_AplicandoOrientacaoObjeto.Aula01.Exercicio02.ExibeDobro;
 import C02_Java_AplicandoOrientacaoObjeto.Aula01.Exercicio03.ExibeMusica;
 import C02_Java_AplicandoOrientacaoObjeto.Aula01.Exercicio04.ExibeCarro;
 import C02_Java_AplicandoOrientacaoObjeto.Aula01.Exercicio05.ExibeAluno;
-import C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.ExibeFilme;
 import C02_Java_AplicandoOrientacaoObjeto.C02_MenuPrincipal;
 import Util.MensagemDespedida;
 
