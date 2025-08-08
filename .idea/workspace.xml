@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e690150d-970d-4b9a-82eb-6fb25b16ddf1" name="Changes" comment="Modificações nas atividades de Aula do Curso 02" />
+    <list default="true" id="e690150d-970d-4b9a-82eb-6fb25b16ddf1" name="Changes" comment="Modificações nas atividades de Aula do Curso 02">
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Calculos/CalculadoraDeTempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/MainScreenMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/MainScreenMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/TItulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Titulo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "devrgomes"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/devrgomes/JavaStudy",
+    "accountId": "887de059-7173-4950-a378-e0aca7d5125f"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 1
@@ -32,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Debug",
+    "Application.MainScreenMatch.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -46,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainScreenMatch">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Modulo01-Iniciante" />
@@ -54,8 +74,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainScreenMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.MainScreenMatch" />
+      <module name="Modulo01-Iniciante" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Modelos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainScreenMatch" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -75,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754569647696</updated>
-      <workItem from="1754569648466" duration="3699000" />
+      <workItem from="1754569648466" duration="8361000" />
     </task>
     <task id="LOCAL-00001" summary="Modificações nas atividades de Aula do Curso 02">
       <option name="closed" value="true" />
@@ -93,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754573372039</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modificações nas atividades de Aula do Curso 02">
+      <option name="closed" value="true" />
+      <created>1754573383856</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754573383856</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

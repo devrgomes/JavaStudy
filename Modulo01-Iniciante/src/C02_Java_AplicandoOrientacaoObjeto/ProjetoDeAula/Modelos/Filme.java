@@ -1,6 +1,6 @@
-package C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula;
+package C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Modelos;
 
-public class Filme extends TItulo{
+public class Filme extends Titulo {
 
     private String diretor;
 
@@ -11,8 +11,6 @@ public class Filme extends TItulo{
     public void setDiretor(String diretor) {
         this.diretor = diretor;
     }
-
-    TItulo incluiDiretor =  new TItulo();
 
     @Override
     public void exibeFichaTecnica() {

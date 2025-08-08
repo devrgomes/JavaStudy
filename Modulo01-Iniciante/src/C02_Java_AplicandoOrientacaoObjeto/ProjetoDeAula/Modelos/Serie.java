@@ -1,9 +1,9 @@
-package C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula;
+package C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Modelos;
 
-public class Serie extends TItulo{
+public class Serie extends Titulo {
 
     private int temporadas;
-    private int espisodiosPorTemporada;
+    private int episodiosPorTemporada;
     private int minutosPorEpisodio;
     private boolean ativa;
 
@@ -15,12 +15,12 @@ public class Serie extends TItulo{
         this.temporadas = temporadas;
     }
 
-    public int getEspisodiosPorTemporada() {
-        return espisodiosPorTemporada;
+    public int getEpisodiosPorTemporada() {
+        return episodiosPorTemporada;
     }
 
-    public void setEspisodiosPorTemporada(int espisodiosPorTemporada) {
-        this.espisodiosPorTemporada = espisodiosPorTemporada;
+    public void setEpisodiosPorTemporada(int episodiosPorTemporada) {
+        this.episodiosPorTemporada = episodiosPorTemporada;
     }
 
     public int getMinutosPorEpisodio() {
@@ -40,11 +40,17 @@ public class Serie extends TItulo{
     }
 
     @Override
+    public int getDuracaoEmMinutos() {
+        return temporadas * episodiosPorTemporada * minutosPorEpisodio;
+    }
+
+    @Override
     public void exibeFichaTecnica() {
         super.exibeFichaTecnica();
         System.out.println("Temporadas: " + temporadas);
-        System.out.println("Episodios por Temporada: " + espisodiosPorTemporada);
-        System.out.println("Minutos por Episodio: " + minutosPorEpisodio);
+        System.out.println("Episódios por Temporada: " + episodiosPorTemporada);
+        System.out.println("Minutos por Episódio: " + minutosPorEpisodio);
+        System.out.println("Duração total em minutos: " + getDuracaoEmMinutos());
         System.out.println("Ativa: " + ativa);
     }
 }

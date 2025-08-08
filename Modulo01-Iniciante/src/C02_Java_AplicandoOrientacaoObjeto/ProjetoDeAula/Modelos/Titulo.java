@@ -1,6 +1,6 @@
-package C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula;
+package C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Modelos;
 
-public class TItulo {
+public class Titulo {
 
     private String nome;
     private int anoDeLancamento;
@@ -21,6 +21,10 @@ public class TItulo {
         this.duracaoEmMinutos = duracaoEmMinutos;
     }
 
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+    }
+
     public void setIncluidoNoPlano(boolean incluidoNoPlano) {
         this.incluidoNoPlano = incluidoNoPlano;
     }
@@ -33,19 +37,19 @@ public class TItulo {
         return somaDasAvaliacoes;
     }
 
-    public void exibeFichaTecnica(){
-        System.out.println("Nome do Filme: " + nome);
+    public void exibeFichaTecnica() {
+        System.out.println("Nome: " + nome);
         System.out.println("Ano de Lançamento: " + anoDeLancamento);
-        System.out.println("Duracao em minutos: " + duracaoEmMinutos);
-        System.out.println("Incluido no plano: " + incluidoNoPlano);
+        System.out.println("Duração em minutos: " + getDuracaoEmMinutos());
+        System.out.println("Incluído no plano: " + incluidoNoPlano);
     }
 
-    public void avalia(double nota){
+    public void avalia(double nota) {
         somaDasAvaliacoes += nota;
         totalDeAvaliacao++;
     }
 
-    public double pegaMedia(){
-        return somaDasAvaliacoes / totalDeAvaliacao;
+    public double pegaMedia() {
+        return (totalDeAvaliacao > 0) ? somaDasAvaliacoes / totalDeAvaliacao : 0;
     }
 }
