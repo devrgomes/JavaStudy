@@ -43,5 +43,8 @@ public class MainScreenMatch {
 
         calculadora.inclui(novoFilme);
         System.out.println(calculadora.getTempoTotal());
+
+        calculadora.inclui(novaSerie);
+        System.out.println(calculadora.getTempoTotal());
     }
 }

@@ -1,6 +1,6 @@
 package C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Calculos;
 
-import C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Modelos.Filme;
+import C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Modelos.Titulo;
 
 public class CalculadoraDeTempo {
 
@@ -10,7 +10,7 @@ public class CalculadoraDeTempo {
         return tempoTotal;
     }
 
-    public void inclui(Filme f) {
-        tempoTotal += f.getDuracaoEmMinutos();
+    public void inclui(Titulo t) {
+        this.tempoTotal += t.getDuracaoEmMinutos();
     }
 }

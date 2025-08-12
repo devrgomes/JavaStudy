@@ -4,13 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e690150d-970d-4b9a-82eb-6fb25b16ddf1" name="Changes" comment="Modificações nas atividades de Aula do Curso 02">
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Calculos/CalculadoraDeTempo.java" afterDir="false" />
+    <list default="true" id="e690150d-970d-4b9a-82eb-6fb25b16ddf1" name="Changes" comment="Adicionando continuação da atividade ralizada durante a aula">
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio01/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio01/MainCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio01/ModeloCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio02/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio02/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio02/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio02/MainAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio03/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio03/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio03/MainCB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio04/GeradorPrimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio04/NumerosPrimos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio04/TestePrimos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio04/VerificadorPrimo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Calculos/CalculadoraDeTempo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/MainScreenMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/MainScreenMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/TItulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Filme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/MainScreenMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/MainScreenMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Serie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Titulo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,45 +42,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "devrgomes"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;devrgomes&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/devrgomes/JavaStudy",
-    "accountId": "887de059-7173-4950-a378-e0aca7d5125f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/devrgomes/JavaStudy&quot;,
+    &quot;accountId&quot;: &quot;887de059-7173-4950-a378-e0aca7d5125f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="30xWLJGP4fn8cu9hdNqVmmE17Ty" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "Application.MainScreenMatch.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.customizations",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainScreenMatch.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.MainScreenMatch">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -109,7 +127,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754569647696</updated>
-      <workItem from="1754569648466" duration="8361000" />
+      <workItem from="1754569648466" duration="8674000" />
+      <workItem from="1754911572830" duration="10710000" />
+      <workItem from="1754998521053" duration="8300000" />
     </task>
     <task id="LOCAL-00001" summary="Modificações nas atividades de Aula do Curso 02">
       <option name="closed" value="true" />
@@ -135,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754573383856</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionando continuação da atividade ralizada durante a aula">
+      <option name="closed" value="true" />
+      <created>1754664480998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754664480998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +203,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modificações nas atividades de Aula do Curso 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificações nas atividades de Aula do Curso 02" />
+    <MESSAGE value="Adicionando continuação da atividade ralizada durante a aula" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando continuação da atividade ralizada durante a aula" />
   </component>
 </project>
