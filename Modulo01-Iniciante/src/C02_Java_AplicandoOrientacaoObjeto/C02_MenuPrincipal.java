@@ -5,6 +5,8 @@ import C01_Java_CriandoSuaPrimeiraAplicacao.Aula02.C01_MenuExerciciosAula02;
 import C01_Java_CriandoSuaPrimeiraAplicacao.Aula03.C01_MenuExerciciosAula03;
 import C01_Java_CriandoSuaPrimeiraAplicacao.C01_ProjetoFinal.ProjetoFinal_SistemaBancarioSimples;
 import C02_Java_AplicandoOrientacaoObjeto.Aula01.C02_MenuExerciciosAula01;
+import C02_Java_AplicandoOrientacaoObjeto.Aula02.C02_MenuExerciciosAula02;
+import C02_Java_AplicandoOrientacaoObjeto.Aula03.C02_MenuExerciciosAula03;
 import Util.MensagemDespedida;
 
 import java.util.Scanner;
@@ -49,16 +51,16 @@ public class C02_MenuPrincipal {
                     menuAula01.MenuExerciciosAula01();
                     break;
 
-//                case 2:
-//                    C02_MenuExerciciosAula02 menuAula02 = new C02_MenuExerciciosAula02();
-//                    menuAula02.MenuExerciciosAula02();
-//                    break;
-//
-//                case 3:
-//                    C02_MenuExerciciosAula03 menuAula03 = new C02_MenuExerciciosAula03();
-//                    menuAula03.MenuExerciciosAula03();
-//                    break;
-//
+                case 2:
+                    C02_MenuExerciciosAula02 menuAula02 = new C02_MenuExerciciosAula02();
+                    menuAula02.MenuExerciciosAula02();
+                    break;
+
+                case 3:
+                    C02_MenuExerciciosAula03 menuAula03 = new C02_MenuExerciciosAula03();
+                    menuAula03.MenuExerciciosAula03();
+                    break;
+
 //                case 4:
 //                    C02_MenuExerciciosAula04 menuAula04 = new C02_MenuExerciciosAula03();
 //                    menuAula04.MenuExerciciosAula03();

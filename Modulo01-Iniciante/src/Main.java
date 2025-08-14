@@ -1,4 +1,5 @@
 import C01_Java_CriandoSuaPrimeiraAplicacao.C01_MenuPrincipal;
+import C02_Java_AplicandoOrientacaoObjeto.C02_MenuPrincipal;
 import Util.MensagemDespedida;
 
 import java.util.Scanner;
@@ -78,13 +79,13 @@ public class Main {
                         |                                                                               |
                         |----Dígito----|-------------Curso Correspondente-------------------------------|
                         |              |                                                                |
-                        |      1       | Java: criando a sua primeira aplicação                         |
-                        |      2       | Java: aplicando Orientações ao Objeto                          |
-                        |      3       | Java: trabalhando com listas e coleções de dados               |
-                        |      4       | Java exceções: aprenda a criar, lançar e controlar exceções    |
-                        |      5       | Java: consumindo API, gravando e lidando com erros             |
-                        |      6       | Maven: gerencie dependências e faça o biuld de aplicações Java |
-                        |      7       | Java e JDBC: trabalhando com um banco de dados                 |
+                        |      1       | Java: Criando a sua primeira aplicação                         |
+                        |      2       | Java: Aplicando Orientações ao Objeto                          |
+                        |      3       | Java: Trabalhando com listas e coleções de dados               |
+                        |      4       | Java exceções: Aprenda a criar, lançar e controlar exceções    |
+                        |      5       | Java: Consumindo API, gravando e lidando com erros             |
+                        |      6       | Maven: Gerencie dependências e faça o biuld de aplicações Java |
+                        |      7       | Java e JDBC: Trabalhando com um banco de dados                 |
                         |              |                                                                |
                         |----Dígito----|-------------Projeto Correspondente-----------------------------|
                         |              |                                                                |
@@ -108,6 +109,7 @@ public class Main {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
                         }
+
                         C01_MenuPrincipal C01menuPrincipal = new C01_MenuPrincipal();
                         C01menuPrincipal.mostrarMenuC01();
                         break;
@@ -118,8 +120,9 @@ public class Main {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
                         }
-//                        C02_MenuPrincipal C02menuPrincipal = new C02_MenuPrincipal();
-//                        C02menuPrincipal.mostrarMenuC02();
+
+                        C02_MenuPrincipal C02menuPrincipal = new C02_MenuPrincipal();
+                        C02menuPrincipal.mostrarMenuC02();
                         break;
 
                     case 3:
@@ -128,6 +131,7 @@ public class Main {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
                         }
+
 //                        C03_MenuPrincipal C03menuPrincipal = new C03_MenuPrincipal();
 //                        C03menuPrincipal.mostrarMenuC03();
                         break;
@@ -138,6 +142,7 @@ public class Main {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
                         }
+
 //                        C04_MenuPrincipal C04menuPrincipal = new C04_MenuPrincipal();
 //                        C04menuPrincipal.mostrarMenuC04();
                         break;
@@ -148,6 +153,7 @@ public class Main {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
                         }
+
 //                        C05_MenuPrincipal C05menuPrincipal = new C05_MenuPrincipal();
 //                        C05menuPrincipal.mostrarMenuC05();
                         break;
@@ -158,6 +164,7 @@ public class Main {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
                         }
+
 //                        C06_MenuPrincipal C06menuPrincipal = new C06_MenuPrincipal();
 //                        C06menuPrincipal.mostrarMenuC06();
                         break;
@@ -168,6 +175,7 @@ public class Main {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
                         }
+
 //                        C07_MenuPrincipal C07menuPrincipal = new C07_MenuPrincipal();
 //                        C07menuPrincipal.mostrarMenuC07();
                         break;
@@ -178,6 +186,7 @@ public class Main {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
                         }
+
 //                        M01_Projeto01_SistemaCadastros M01P01 = new M01_Projeto01_SistemaCadastros();
 //                        M01P01.M01P01SistemaCadastro();
                         break;
@@ -188,6 +197,7 @@ public class Main {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
                         }
+
 //                        M01_Projeto02_GerenciamentoContatos M01P02 = new M01_Projeto02_GerenciamentoContatos();
 //                        M01P02.M01P02GerenciamentoContatos();
                         break;
@@ -198,6 +208,7 @@ public class Main {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
                         }
+
 //                        M01_Projeto03_CalculadoraDespesasPessoais M01P03 = new M01_Projeto03_CalculadoraDespesasPessoais();
 //                        M01P03.M01P03CalculadoraDespesasPessoais();
                         break;
@@ -208,6 +219,7 @@ public class Main {
                             System.out.println("em " + i);
                             Thread.sleep(1000);
                         }
+
                         MensagemDespedida.Despedida();
                         Thread.sleep(5000);
                         System.exit(0);

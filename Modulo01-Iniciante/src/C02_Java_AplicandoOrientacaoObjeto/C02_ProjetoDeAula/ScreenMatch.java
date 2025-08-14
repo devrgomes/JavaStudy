@@ -1,10 +1,10 @@
-package C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula;
+package C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula;
 
-import C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Calculos.CalculadoraDeTempo;
-import C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Modelos.Filme;
-import C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Modelos.Serie;
+import C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Calculos.CalculadoraDeTempo;
+import C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Modelos.Filme;
+import C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Modelos.Serie;
 
-public class MainScreenMatch {
+public class ScreenMatch {
 
     public static void main(String[] args) {
 

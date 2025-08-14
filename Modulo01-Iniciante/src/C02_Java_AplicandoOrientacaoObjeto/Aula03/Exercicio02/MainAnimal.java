@@ -2,7 +2,7 @@ package C02_Java_AplicandoOrientacaoObjeto.Aula03.Exercicio02;
 
 public class MainAnimal {
 
-    public void MainAnimal() {
+    public void mainAnimal() {
 
         //-----Cachorro-----//
         Cachorro c = new Cachorro();

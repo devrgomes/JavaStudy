@@ -1,4 +1,4 @@
-package C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Modelos;
+package C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Modelos;
 
 public class Filme extends Titulo {
 

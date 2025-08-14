@@ -1,6 +1,6 @@
-package C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Calculos;
+package C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Calculos;
 
-import C02_Java_AplicandoOrientacaoObjeto.ProjetoDeAula.Modelos.Titulo;
+import C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Modelos.Titulo;
 
 public class CalculadoraDeTempo {
 
