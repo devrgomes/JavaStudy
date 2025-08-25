@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e690150d-970d-4b9a-82eb-6fb25b16ddf1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Calculos/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Calculos/FiltroRecomendacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Episodio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula01/C02_MenuExerciciosAula01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula01/C02_MenuExerciciosAula01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula02/C02_MenuExerciciosAula02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula02/C02_MenuExerciciosAula02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/C02_MenuExerciciosAula03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/C02_MenuExerciciosAula03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio01/MainCarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio01/MainCarro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio02/MainAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/Exercicio02/MainAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_MenuPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Calculos/CalculadoraDeTempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/MainScreenMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/ScreenMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Titulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/ScreenMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/ScreenMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +69,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainScreenMatch">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Modulo01-Iniciante" />
@@ -99,7 +92,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainScreenMatch" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -107,8 +99,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
       </set>
     </attachedChunks>
   </component>
@@ -123,6 +115,7 @@
       <workItem from="1754911572830" duration="10710000" />
       <workItem from="1754998521053" duration="8392000" />
       <workItem from="1755180832321" duration="1014000" />
+      <workItem from="1756148670731" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="Modificações nas atividades de Aula do Curso 02">
       <option name="closed" value="true" />

@@ -1,6 +1,8 @@
 package C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Modelos;
 
-public class Filme extends Titulo {
+import C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Calculos.Classificavel;
+
+public class Filme extends Titulo implements Classificavel {
 
     private String diretor;
 
@@ -16,5 +18,10 @@ public class Filme extends Titulo {
     public void exibeFichaTecnica() {
         super.exibeFichaTecnica();
         System.out.println("Diretor: " + diretor);
+    }
+
+    @Override
+    public int getClassificao() {
+        return (int) pegaMedia() / 2;
     }
 }
