@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e690150d-970d-4b9a-82eb-6fb25b16ddf1" name="Changes" comment="Adicionando novas aterações no código de aula co C02">
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio01/ConversaoFinanceira.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio01/ConversorMoeda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio02/CalculadoraSalaRetangular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio02/CalculoGeometrico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio03/Tabuada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio03/TabuadaMultiplicacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio04/ConversorTemperatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio04/ConversorTemperaturaPadrao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio05/Calculavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio05/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio05/MainLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio05/ProdutoFisico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio06/MainPrecoProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio06/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio06/Servico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/Exercicio06/Vendavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitgnore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitgnore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C01_Java_CriandoSuaPrimeiraAplicacao/Aula01/C01_MenuExerciciosAula01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C01_Java_CriandoSuaPrimeiraAplicacao/Aula01/C01_MenuExerciciosAula01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula01/C02_MenuExerciciosAula01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula01/C02_MenuExerciciosAula01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula02/C02_MenuExerciciosAula02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula02/C02_MenuExerciciosAula02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/C02_MenuExerciciosAula03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula03/C02_MenuExerciciosAula03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/C02_MenuExerciciosAula04.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/Aula04/C02_MenuExerciciosAula04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Calculos/CalculadoraDeTempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Calculos/Classificavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Calculos/Classificavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Calculos/FiltroRecomendacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Calculos/FiltroRecomendacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Episodio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/Modelos/Titulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/ScreenMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Modulo01-Iniciante/src/C02_Java_AplicandoOrientacaoObjeto/C02_ProjetoDeAula/ScreenMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/Aula02/C02_MenuExerciciosAula02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/Aula02/C02_MenuExerciciosAula02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/Aula03/C02_MenuExerciciosAula03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/Aula03/C02_MenuExerciciosAula03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/C02_MenuPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/C02_MenuPrincipal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Calculos/CalculadoraDeTempo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/MainScreenMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Filme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Serie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/C02_Java_AplicandoOrientacaoObjeto/ProjetoDeAula/Modelos/Titulo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Modulo01-Iniciante/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="e690150d-970d-4b9a-82eb-6fb25b16ddf1" name="Changes" comment="Adicionando Aula04 e alterações no código geral" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +111,7 @@
       <workItem from="1754911572830" duration="10710000" />
       <workItem from="1754998521053" duration="8392000" />
       <workItem from="1755180832321" duration="1014000" />
-      <workItem from="1756148670731" duration="10249000" />
+      <workItem from="1756148670731" duration="10533000" />
     </task>
     <task id="LOCAL-00001" summary="Modificações nas atividades de Aula do Curso 02">
       <option name="closed" value="true" />
@@ -210,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756150275958</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adicionando Aula04 e alterações no código geral">
+      <option name="closed" value="true" />
+      <created>1756167954968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1756167954968</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +220,7 @@
     <MESSAGE value="Adicionando continuação da atividade ralizada durante a aula" />
     <MESSAGE value="Adicionando atividades não obrigatórias" />
     <MESSAGE value="Adicionando novas aterações no código de aula co C02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando novas aterações no código de aula co C02" />
+    <MESSAGE value="Adicionando Aula04 e alterações no código geral" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando Aula04 e alterações no código geral" />
   </component>
 </project>
