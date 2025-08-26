@@ -56,7 +56,7 @@ public class C02_MenuExerciciosAula01 {
                 case 2:
                     System.out.println("""
                             \n
-                            Enunciado:");
+                            Enunciado:"
                             
                             Crie uma classe Calculadora com um método que recebe um número como parâmetro
                             e retorna o dobro desse número.
@@ -131,7 +131,6 @@ public class C02_MenuExerciciosAula01 {
                 default:
                     System.out.println("\nDigite um número que esteja entre as opções!");
             }
-
         }
     }
 }

@@ -5,7 +5,7 @@ import C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Calculos.Classificav
 public class Episodio implements Classificavel {
     private int numero;
     private String nome;
-    private String serie;
+    private Serie serie;
     private int totalVisualizacoes;
 
     public int getTotalVisualizacoes() {
@@ -24,14 +24,6 @@ public class Episodio implements Classificavel {
         this.numero = numero;
     }
 
-    public String getSerie() {
-        return serie;
-    }
-
-    public void setSerie(String serie) {
-        this.serie = serie;
-    }
-
     public String getNome() {
         return nome;
     }
@@ -40,9 +32,17 @@ public class Episodio implements Classificavel {
         this.nome = nome;
     }
 
+    public Serie getSerie() {
+        return serie;
+    }
+
+    public void setSerie(Serie serie) {
+        this.serie = serie;
+    }
+
     @Override
-    public int getClassificao() {
-        if (getTotalVisualizacoes() > 100) {
+    public int getClassificacao() {
+        if (totalVisualizacoes > 100) {
             return 4;
         } else {
             return 2;

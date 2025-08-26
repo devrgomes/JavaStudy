@@ -58,7 +58,7 @@ public class C02_MenuExerciciosAula02 {
                 case 2:
                     System.out.println("""
                             \n
-                            Enunciado:");
+                            Enunciado:"
                             
                             Crie uma classe IdadePessoa com os atributos privados nome e idade. Utilize métodos
                             getters e setters para acessar e modificar esses atributos. Adicione um método
@@ -135,7 +135,6 @@ public class C02_MenuExerciciosAula02 {
                 default:
                     System.out.println("\nDigite um número que esteja entre as opções!");
             }
-
         }
     }
 }

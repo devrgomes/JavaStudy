@@ -1,16 +1,7 @@
-# IDEs
-**/.idea/
+### IntelliJ IDEA ###
+
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+!**/*.iml
 *.iml
-
-# Builds
-**/out/
-/target/
-*.class
-
-# Sistema operacional
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-

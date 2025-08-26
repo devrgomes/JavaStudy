@@ -6,59 +6,57 @@ import C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Modelos.Episodio;
 import C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Modelos.Filme;
 import C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Modelos.Serie;
 
+import java.sql.SQLOutput;
+
 public class ScreenMatch {
 
     public static void main(String[] args) {
 
 //    public void MainSM(){
 
-        FiltroRecomendacao filtro =  new FiltroRecomendacao();
+        Filme meuFilme = new Filme();
+        meuFilme.setNome("O poderoso chefão");
+        meuFilme.setAnoDeLancamento(1970);
+        meuFilme.setDuracaoEmMinutos(180);
+        System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
-        //-----Filme-----//
-        Filme novoFilme =  new Filme();
+        meuFilme.exibeFichaTecnica();
+        meuFilme.avalia(8);
+        meuFilme.avalia(5);
+        meuFilme.avalia(10);
+        System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
+        System.out.println(meuFilme.pegaMedia());
+        //meuFilme.somaDasAvaliacoes = 10;
+        //meuFilme.totalDeAvaliacoes = 1;
+        //System.out.println(meuFilme.pegaMedia());
 
-        novoFilme.setNome("Capitão America 2 - O Soldado Invernal");
-        novoFilme.setAnoDeLancamento(2014);
-        novoFilme.setDuracaoEmMinutos(136);
-        novoFilme.getDuracaoEmMinutos();
-        novoFilme.setDiretor("Jose Russo e Anthony Russo");
-        novoFilme.setIncluidoNoPlano(true);
-        filtro.filtra(novoFilme);
+        Serie lost = new Serie();
+        lost.setNome("Lost");
+        lost.setAnoDeLancamento(2000);
+        lost.exibeFichaTecnica();
+        lost.setTemporadas(10);
+        lost.setEpisodiosPorTemporada(10);
+        lost.setMinutosPorEpisodio(50);
+        System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos());
 
-        novoFilme.exibeFichaTecnica();
+        Filme outroFilme = new Filme();
+        outroFilme.setNome("Avatar");
+        outroFilme.setAnoDeLancamento(2023);
+        outroFilme.setDuracaoEmMinutos(200);
 
-        System.out.println();
-
-        //-----Série-----//
-        Serie novaSerie = new Serie();
-        Episodio novoEpisodio = new Episodio();
-
-        novaSerie.setNome("You");
-        novaSerie.setAnoDeLancamento(2018);
-        novaSerie.getDuracaoEmMinutos();
-        novaSerie.setTemporadas(5);
-        novaSerie.setEpisodiosPorTemporada(10);
-        novaSerie.setMinutosPorEpisodio(53);
-        novaSerie.setAtiva(false);
-        novaSerie.setIncluidoNoPlano(true);
-
-        novoEpisodio.setNumero(1);
-        novoEpisodio.setSerie("Lost");
-        novoEpisodio.setTotalVisualizacoes(300);
-        filtro.filtra(novoEpisodio);
-
-        novaSerie.exibeFichaTecnica();
-
-        //-----Extras-----//
-        CalculadoraDeTempo calculadora =  new CalculadoraDeTempo();
-
-        calculadora.inclui(novoFilme);
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.inclui(meuFilme);
+        calculadora.inclui(outroFilme);
+        calculadora.inclui(lost);
         System.out.println(calculadora.getTempoTotal());
 
-        calculadora.inclui(novaSerie);
-        System.out.println(calculadora.getTempoTotal());
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(meuFilme);
 
-        filtro.filtra(novoFilme);
-
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(lost);
+        episodio.setTotalVisualizacoes(300);
+        filtro.filtra(episodio);
     }
 }

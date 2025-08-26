@@ -1,11 +1,10 @@
 package C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Modelos;
 
 public class Serie extends Titulo {
-
     private int temporadas;
+    private boolean ativa;
     private int episodiosPorTemporada;
     private int minutosPorEpisodio;
-    private boolean ativa;
 
     public int getTemporadas() {
         return temporadas;
@@ -13,6 +12,14 @@ public class Serie extends Titulo {
 
     public void setTemporadas(int temporadas) {
         this.temporadas = temporadas;
+    }
+
+    public boolean isAtiva() {
+        return ativa;
+    }
+
+    public void setAtiva(boolean ativa) {
+        this.ativa = ativa;
     }
 
     public int getEpisodiosPorTemporada() {
@@ -31,26 +38,8 @@ public class Serie extends Titulo {
         this.minutosPorEpisodio = minutosPorEpisodio;
     }
 
-    public boolean isAtiva() {
-        return ativa;
-    }
-
-    public void setAtiva(boolean ativa) {
-        this.ativa = ativa;
-    }
-
     @Override
     public int getDuracaoEmMinutos() {
         return temporadas * episodiosPorTemporada * minutosPorEpisodio;
-    }
-
-    @Override
-    public void exibeFichaTecnica() {
-        super.exibeFichaTecnica();
-        System.out.println("Temporadas: " + temporadas);
-        System.out.println("Episódios por Temporada: " + episodiosPorTemporada);
-        System.out.println("Minutos por Episódio: " + minutosPorEpisodio);
-        System.out.println("Duração total em minutos: " + getDuracaoEmMinutos());
-        System.out.println("Ativa: " + ativa);
     }
 }

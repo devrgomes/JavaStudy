@@ -56,7 +56,7 @@ public class C01_MenuExerciciosAula01 {
                 case 2:
                     System.out.println("""
                             \n
-                            Enunciado:");
+                            Enunciado:"
                             
                             Crie um projeto Java no IntelliJ que deve conter uma classe chamada Perfil,
                             com o método main, que ao executar deverá imprimir um cumprimento personalizado no console.
@@ -144,7 +144,6 @@ public class C01_MenuExerciciosAula01 {
                 default:
                     System.out.println("\nDigite um número que esteja entre as opções!");
             }
-
         }
     }
 }

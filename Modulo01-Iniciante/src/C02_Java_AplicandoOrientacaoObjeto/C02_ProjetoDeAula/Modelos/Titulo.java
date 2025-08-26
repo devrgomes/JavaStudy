@@ -1,13 +1,32 @@
 package C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.Modelos;
 
 public class Titulo {
-
     private String nome;
     private int anoDeLancamento;
-    private int duracaoEmMinutos;
     private boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
-    private int totalDeAvaliacao;
+    private int totalDeAvaliacoes;
+    private int duracaoEmMinutos;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
+    }
+
+    public boolean isIncluidoNoPlano() {
+        return incluidoNoPlano;
+    }
+
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+    }
+
+    public int getTotalDeAvaliacoes() {
+        return totalDeAvaliacoes;
+    }
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -17,39 +36,25 @@ public class Titulo {
         this.anoDeLancamento = anoDeLancamento;
     }
 
-    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
-        this.duracaoEmMinutos = duracaoEmMinutos;
-    }
-
-    public int getDuracaoEmMinutos() {
-        return duracaoEmMinutos;
-    }
-
     public void setIncluidoNoPlano(boolean incluidoNoPlano) {
         this.incluidoNoPlano = incluidoNoPlano;
     }
 
-    public int getTotalDeAvaliacao() {
-        return totalDeAvaliacao;
+    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+        this.duracaoEmMinutos = duracaoEmMinutos;
     }
 
-    public double getSomaDasAvaliacoes() {
-        return somaDasAvaliacoes;
+    public void exibeFichaTecnica(){
+        System.out.println("Nome do filme: " + nome);
+        System.out.println("Ano de lançamento: " + anoDeLancamento);
     }
 
-    public void exibeFichaTecnica() {
-        System.out.println("Nome: " + nome);
-        System.out.println("Ano de Lançamento: " + anoDeLancamento);
-        System.out.println("Duração em minutos: " + getDuracaoEmMinutos());
-        System.out.println("Incluído no plano: " + incluidoNoPlano);
-    }
-
-    public void avalia(double nota) {
+    public void avalia(double nota){
         somaDasAvaliacoes += nota;
-        totalDeAvaliacao++;
+        totalDeAvaliacoes++;
     }
 
-    public double pegaMedia() {
-        return (totalDeAvaliacao > 0) ? somaDasAvaliacoes / totalDeAvaliacao : 0;
+    public double pegaMedia(){
+        return somaDasAvaliacoes / totalDeAvaliacoes;
     }
 }

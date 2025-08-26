@@ -58,7 +58,7 @@ public class C02_MenuExerciciosAula03 {
                 case 2:
                     System.out.println("""
                             \n
-                            Enunciado:");
+                            Enunciado:"
                             
                             Crie uma classe Animal com um método emitirSom(). Em seguida, crie duas subclasses:
                             Cachorro e Gato, que herdam da classe Animal. Adicione o método emitirSom() nas subclasses,
@@ -125,7 +125,6 @@ public class C02_MenuExerciciosAula03 {
                 default:
                     System.out.println("\nDigite um número que esteja entre as opções!");
             }
-
         }
     }
 }
