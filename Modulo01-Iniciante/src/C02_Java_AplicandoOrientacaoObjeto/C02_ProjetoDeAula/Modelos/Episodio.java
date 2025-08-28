@@ -48,4 +48,11 @@ public class Episodio implements Classificavel {
             return 2;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Episódio " + numero + " - " + nome + " da série " +
+                (serie != null ? serie.getNome() : "desconhecida") +
+                " (" + totalVisualizacoes + " visualizações)";
+    }
 }

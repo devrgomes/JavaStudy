@@ -6,6 +6,7 @@ public class Produto {
 
     private String nome;
     private double preco;
+    private int desconto;
 
     public String getNome() {
         return nome;
@@ -25,7 +26,8 @@ public class Produto {
 
     public void aplicarDesconto(){
         Scanner scan = new Scanner(System.in);
-        int desconto = scan.nextInt();
+        System.out.println("Digite o valor do desconto que deseja aplicar: ");
+        this.desconto = scan.nextInt();
 
         if (desconto >= 0 && desconto <= 100) {
             this.preco -= this.preco * (desconto / 100.0);

@@ -10,25 +10,24 @@ import java.sql.SQLOutput;
 
 public class ScreenMatch {
 
-    public static void main(String[] args) {
-
-//    public void MainSM(){
+    public void MainScreenMatch(){
 
         Filme meuFilme = new Filme();
         meuFilme.setNome("O poderoso chefão");
         meuFilme.setAnoDeLancamento(1970);
         meuFilme.setDuracaoEmMinutos(180);
+        meuFilme.setDiretor("Francis Ford Coppola");
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
         meuFilme.exibeFichaTecnica();
+
         meuFilme.avalia(8);
         meuFilme.avalia(5);
         meuFilme.avalia(10);
         System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
         System.out.println(meuFilme.pegaMedia());
-        //meuFilme.somaDasAvaliacoes = 10;
-        //meuFilme.totalDeAvaliacoes = 1;
-        //System.out.println(meuFilme.pegaMedia());
+
+        System.out.println("");
 
         Serie lost = new Serie();
         lost.setNome("Lost");
@@ -39,10 +38,17 @@ public class ScreenMatch {
         lost.setMinutosPorEpisodio(50);
         System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos());
 
+        System.out.println("");
+
         Filme outroFilme = new Filme();
         outroFilme.setNome("Avatar");
+        outroFilme.setDiretor("James Cameron");
         outroFilme.setAnoDeLancamento(2023);
         outroFilme.setDuracaoEmMinutos(200);
+
+        outroFilme.exibeFichaTecnica();
+
+        System.out.println("");
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
         calculadora.inclui(meuFilme);

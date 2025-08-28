@@ -12,7 +12,7 @@ public class ContaCorrente extends ContaBancaria{
     public void cobrarTarifeMensal() {
         if (tarifaMensal <= saldo) {
             saldo -= tarifaMensal;
-            System.out.println("Tarifa mensal de R$ " + tarifaMensal + "cobrada com sucesso");
+            System.out.println("Tarifa mensal de R$ " + tarifaMensal + " cobrada com sucesso");
         } else {
             System.out.println("Saldo insuficiente para cobrança da tarifa mensal");
         }

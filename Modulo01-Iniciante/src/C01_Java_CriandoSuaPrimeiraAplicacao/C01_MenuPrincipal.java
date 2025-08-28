@@ -57,8 +57,8 @@ public class C01_MenuPrincipal {
                     break;
 
                 case 4:
-                    ProjetoFinal_SistemaBancarioSimples pjfC01 = new ProjetoFinal_SistemaBancarioSimples();
-                    pjfC01.ProjetoFinalSysBanc();
+                    ProjetoFinal_SistemaBancarioSimples pjfinalC01 = new ProjetoFinal_SistemaBancarioSimples();
+                    pjfinalC01.ProjetoFinalSysBanc();
                     break;
 
                 case 9:

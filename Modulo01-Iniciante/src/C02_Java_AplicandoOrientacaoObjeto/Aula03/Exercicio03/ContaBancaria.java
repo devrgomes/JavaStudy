@@ -25,10 +25,4 @@ public class ContaBancaria {
     public double consultarSaldo() {
         return this.saldo;
     }
-
-    public void mostrarDados() {
-        System.out.println("=== Dados do Saldo ===");
-        System.out.println("Saldo atual: R$ " + saldo);
-        System.out.println("======================");
-    }
 }

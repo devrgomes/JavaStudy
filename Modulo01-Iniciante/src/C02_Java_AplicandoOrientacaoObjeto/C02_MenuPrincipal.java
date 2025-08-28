@@ -7,6 +7,9 @@ import C01_Java_CriandoSuaPrimeiraAplicacao.C01_ProjetoFinal.ProjetoFinal_Sistem
 import C02_Java_AplicandoOrientacaoObjeto.Aula01.C02_MenuExerciciosAula01;
 import C02_Java_AplicandoOrientacaoObjeto.Aula02.C02_MenuExerciciosAula02;
 import C02_Java_AplicandoOrientacaoObjeto.Aula03.C02_MenuExerciciosAula03;
+import C02_Java_AplicandoOrientacaoObjeto.Aula04.C02_MenuExerciciosAula04;
+import C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoDeAula.ScreenMatch;
+import C02_Java_AplicandoOrientacaoObjeto.C02_ProjetoFinal.Main.ProjetoFinal_MeuSpotify;
 import Util.MensagemDespedida;
 
 import java.util.Scanner;
@@ -61,18 +64,19 @@ public class C02_MenuPrincipal {
                     menuAula03.MenuExerciciosAula03();
                     break;
 
-//                case 4:
-//                    C02_MenuExerciciosAula04 menuAula04 = new C02_MenuExerciciosAula03();
-//                    menuAula04.MenuExerciciosAula03();
-//                    break;
-//
-//                case 5:
-//                    ProjetoFinal_ pjfC02 = new ProjetoFinal_();
-//                    pjfC02.ProjetoFinal;
-//                    break;
+                case 4:
+                    C02_MenuExerciciosAula04 menuAula04 = new C02_MenuExerciciosAula04();
+                    menuAula04.MenuExerciciosAula04();
+                    break;
+
+                case 5:
+                    ProjetoFinal_MeuSpotify pjfinalC02 = new ProjetoFinal_MeuSpotify();
+                    pjfinalC02.PlayMusic();
+                    break;
 
                 case 6:
-
+                    ScreenMatch pjaulaC02 = new ScreenMatch();
+                    pjaulaC02.MainScreenMatch();
                     break;
 
                 case 9:

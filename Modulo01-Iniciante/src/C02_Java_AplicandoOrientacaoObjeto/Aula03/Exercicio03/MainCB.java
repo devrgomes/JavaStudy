@@ -14,7 +14,7 @@ public class MainCB {
         ContaCorrente conta = new ContaCorrente();
         conta.setTarifaMensal(tarifa);
 
-        int opc = 0;
+        int opc = 1;
 
         while (opc != 0) {
             System.out.println("\nEscolha uma opção:");
